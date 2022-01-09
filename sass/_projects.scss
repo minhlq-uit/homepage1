@@ -1,0 +1,47 @@
+.projects {
+    margin-top: 400px;
+    margin-bottom: 200px;
+    .container {
+        text-align: center;
+    }
+    &-heading {
+        margin-bottom: 42px;
+    }
+    &-desc {
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+        margin-bottom: 86px;
+    }
+    &-slider {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &-images {
+        display: flex;
+        justify-content: space-between;
+        img {
+            max-width: 30%;
+        }
+    }
+    &-dots {
+        width: 20%;
+        margin: 64px auto 0;
+        text-align: center;
+        font-size: 0;
+        .dot {
+            margin: 0 6px;
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: $dark-color;
+            border: 4px solid #fff;
+            &.active {
+                background-color: #5954f3;
+                border-color: #a4a1f8;
+            }
+        }
+    }
+}

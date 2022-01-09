@@ -1,0 +1,64 @@
+.introduce {
+    &-top {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 265px;
+    }
+    &-content {
+        width: 40%;
+        margin-top: 250px;
+    }
+    &-heading {
+        h2 {
+            margin-bottom: 55px;
+        }
+    }
+    &-desc {
+        p {
+            margin-bottom: 65px;
+        }
+    }
+    &-image {
+        width: 60%;
+        position: relative;
+    }
+    .image-bot {
+        position: absolute;
+        top: 150px;
+        right: 0;
+    }
+    .image-top {
+        position: absolute;
+        top: 250px;
+        left: 100px;
+        z-index: 1;
+    }
+    &-bot {
+        display: flex;
+        justify-content: space-between;
+        .introduce-image {
+            width: 70%;
+            position: relative;
+            img:first-child {
+                position: absolute;
+                top: 40%;
+                left: 0;
+                transform: translateX(-62px);
+            }
+            img:nth-child(2) {
+                position: absolute;
+                top: -36px;
+                right: 10px;
+            }
+            img:last-child {
+                position: absolute;
+                bottom: -300px;
+                right: 150px;
+            }
+        }
+        .introduce-content {
+            width: 30%;
+            margin-top: 100px;
+        }
+    }
+}

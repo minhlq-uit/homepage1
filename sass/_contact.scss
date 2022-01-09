@@ -1,0 +1,48 @@
+.contact {
+    background-image: url(../images/bg-contact.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 150px;
+    &-header {
+        padding-top: 150px;
+        .heading {
+            color: #fff;
+            margin-bottom: 40px;
+        }
+        .desc {
+            width: 50%;
+            margin-bottom: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 18px;
+            line-height: calc(34/18);
+            color: #eeeeee;
+        }
+    }
+    &-form {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        input {
+            height: 56px;
+        }
+        input, textarea {
+            width: 100%;
+            display: block;
+            background: transparent;
+            outline: none;
+            border: 1px solid #4f94ec;
+            margin-bottom: 32px;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 14px;
+            padding: 10px 30px;
+        }
+        input::placeholder , textarea::placeholder {
+            color: #fff;
+        }
+        input:hover, textarea:hover {
+            border-color: #fff;
+        }
+    }
+}

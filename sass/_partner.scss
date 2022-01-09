@@ -1,0 +1,38 @@
+.partner {
+    background-image: url(../images/buble.png);
+    background-repeat: no-repeat;
+    background-position: 85% 100px;
+
+    &-top {
+        position: relative;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-content {
+        width: 65%;
+        background-image: url(../images/quotation_marks.png);
+        background-repeat: no-repeat;
+        background-position: 50% 125px;
+    }
+    &-quote {
+        margin-top: 160px;
+        padding: 89px 85px 106px;
+        text-align: center;
+        box-shadow: 2px 20px 20px #f0eafd, -2px 20px 20px #f0eafd;
+        p {
+            color: $darker-color;
+            font-size: 30px;
+            line-height: calc(48/30);
+        }
+        p:last-child {
+            color: $dark-color;
+            font-size: 18px;
+            margin-top: 49px;
+        }
+        span {
+            color: #000;
+            font-weight: 800;
+        }
+    }
+}
